@@ -1,0 +1,30 @@
+# Local tooling and credentials
+.env
+.env.*
+!.env.example
+.certs/
+.idea/
+.playwright-cli/
+.codex-deploy/
+.codex-remote-check/
+.vipru-wp.cookies
+*.pem
+*.key
+
+# OS files and generated artifacts
+.DS_Store
+__MACOSX/
+output/
+host-backups/
+deploy/
+*.log
+
+# WordPress runtime data and upstream files
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-admin/
+wordpress/wp-includes/
+wordpress/wp-config.php
+
+# Large local media (keep it outside Git or manage it with Git LFS)
+*.mp4
